@@ -1,0 +1,17 @@
+:host{
+    width: 100dvw;
+    height: 100dvh;
+    display: grid; 
+    grid-template-columns: 0.5fr repeat(5, 1fr) 0.5fr; 
+    grid-template-rows: 0.25fr repeat(3, 1fr) 0.25fr; 
+    gap: 1em 1em; 
+    grid-template-areas: 
+      ". . navigation navigation navigation notyfications notyfications"
+      "l-toolbar main main main main main r-toolbar"
+      "l-toolbar main main main main main r-toolbar"
+      "l-toolbar main main main main main r-toolbar"
+      ". . . footer . . ."; 
+    justify-content: center; 
+    justify-items: stretch; 
+}
+// https://grid.layoutit.com/?id=pLdeYnt

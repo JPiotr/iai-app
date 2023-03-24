@@ -1,0 +1,15 @@
+:host{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: repeat(6, 1fr); 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        ". . . . . . . . ."
+        ". . . . . . . . ."
+        ". . . . . . . . ."
+        ". . . . . . . . ."
+        ". . . . . . . . ."
+        ". . . . . . . . ."; 
+    grid-area: main;
+    outline: 2px firebrick solid;
+}

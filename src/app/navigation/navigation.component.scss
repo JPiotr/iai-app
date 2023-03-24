@@ -1,0 +1,10 @@
+:host{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: 1fr; 
+    gap: 0px 1em; 
+    grid-template-areas: 
+      ". . . ."; 
+    grid-area: navigation; 
+    outline: 2px cadetblue solid;
+}

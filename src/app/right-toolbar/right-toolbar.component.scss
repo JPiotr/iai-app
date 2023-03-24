@@ -1,0 +1,12 @@
+:host {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."
+      "."; 
+    grid-area: r-toolbar; 
+    outline: 2px magenta solid;
+}
