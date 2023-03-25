@@ -1,4 +1,6 @@
 :host{
+    // margin-left: 1dvw;
+    // margin-right: 1dvw;
     width: 100dvw;
     height: 100dvh;
     display: grid; 
@@ -13,5 +15,6 @@
       ". . . footer . . ."; 
     justify-content: center; 
     justify-items: stretch; 
+    background-color: rgb(167, 163, 163);
 }
 // https://grid.layoutit.com/?id=pLdeYnt
