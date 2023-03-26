@@ -3,6 +3,8 @@
     box-shadow: 0px 0px 15px -4px rgba(66, 68, 90, 1);
     border-radius: 10px;
     transition: 0.3s ease-in-out;
+    border: black 0.4em;
+    border-style: groove double ;
 }
 
 :host:hover{

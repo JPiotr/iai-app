@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NotyficationComponent } from './components/notyfication/notyfication.component';
 import { NotyficationBarComponent } from './components/notyfication-bar/notyfication-bar.component';
 import { ToolComponent } from './components/tool/tool.component';
+import { ScannerOptionComponent } from './components/navigation/scanner-option/scanner-option.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ToolComponent } from './components/tool/tool.component';
     MainComponent,
     FooterComponent,
     NotyficationComponent,
-    NotyficationBarComponent
+    NotyficationBarComponent,
+    ScannerOptionComponent
   ],
   imports: [
     BrowserModule,
